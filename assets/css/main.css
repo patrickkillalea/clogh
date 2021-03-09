@@ -3576,7 +3576,7 @@ input, select, textarea {
 		}
 
 		.banner.style1.fullscreen {
-			min-height: 100vh;
+			/* min-height: 100vh; */
 		}
 
 			@media screen and (orientation: portrait) {
@@ -8601,3 +8601,34 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+.history-img{
+    padding: 0;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.history-img img{ 
+	width: 100%;
+}
+
+.poem{
+	width: 50%;
+	padding-left: 10%;
+}
+
+.donate-btn{
+	background-color: #02a95c;
+    color: #fff !important;
+}
+
+.home-link a{
+	text-decoration: none;
+    color: #000000;
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
