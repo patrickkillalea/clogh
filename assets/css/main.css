@@ -8610,18 +8610,27 @@ input, select, textarea {
     overflow: hidden;
 }
 
+.history-header-img{
+	max-height: 50vh;
+}
+
 .history-img img{ 
 	width: 100%;
 }
 
 .poem{
-	width: 50%;
-	padding-left: 10%;
+	width: 75%;
+	margin: 0 auto;
 }
 
 .donate-btn{
 	background-color: #02a95c;
     color: #fff !important;
+}
+
+.home-link {
+    background: #e6e6e6;
+    padding: 10px 0;
 }
 
 .home-link a{
@@ -8631,4 +8640,12 @@ input, select, textarea {
     font-weight: 900;
     font-size: 1.4rem;
     cursor: pointer;
+}
+
+.caption {
+	font-style: italic;
+	font-size: 90%;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 5px;
 }
