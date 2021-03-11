@@ -8619,7 +8619,7 @@ input, select, textarea {
 }
 
 .poem{
-	width: 75%;
+	padding: 20px 30px;
 	margin: 0 auto;
 }
 
