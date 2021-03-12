@@ -8621,6 +8621,17 @@ input, select, textarea {
 .poem{
 	padding: 20px 10px;
 	margin: 0 auto;
+	text-align: left !important;
+}
+
+@media screen and (max-width: 767px) {
+	.poem{
+		padding: 20px 0px;
+	}
+	
+	.poem p{
+		font-size: 96%;
+	}
 }
 
 .donate-btn{
