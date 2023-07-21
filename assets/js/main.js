@@ -89,7 +89,7 @@
 							}
 
 						// Hide original.
-							$img.css('opacity', '0');
+							// $img.css('opacity', '0');
 
 					});
 
