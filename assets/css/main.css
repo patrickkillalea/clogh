@@ -3579,6 +3579,11 @@ input, select, textarea {
 			/* min-height: 100vh; */
 		}
 
+		.banner.style1.fullscreen .image {
+			height: 50vh;
+			width: 100%;
+		}
+
 			@media screen and (orientation: portrait) {
 
 				.banner.style1.fullscreen .content {
